@@ -3,3 +3,8 @@ kind: Kustomization
 resources:
   - main-api.yaml
   - aux-api.yaml
+images:
+  - name: markenglish156/main-service
+    newTag: "4"
+  - name: markenglish156/aux-service
+    newTag: "4"
